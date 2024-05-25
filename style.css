@@ -1,0 +1,169 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+  height:100vh;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+    height:500px;
+    width:400px;
+    background-color: white;
+    border-radius: 14px;
+   
+    
+}
+.box{
+    box-shadow:0 9px 13px 0 rgba(0,0,0,0.2),0 10px 27px 0 rgba(0,0,0,0.19);
+}
+.upper-box{
+    height:140px;
+    width:100%;
+    background-color:pink;
+    border-radius: 14px 14px 0px 0px;
+}
+.frame{
+    height:140px;
+    width:140px;
+    background-color:pink;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 130px;
+    position:absolute;
+    top:135px;
+    border-radius:50%;
+}
+.photo{
+    height:120px;
+    width:120px;
+    background-color:blue;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left:1px;
+    position:absolute;
+    top:17px;
+    left:9px;
+    border-radius:50%;
+    background-image: url(mypic2.jpg);
+    background-size: cover;
+}
+
+.name{
+    color: black;
+    position: absolute;
+    top:280px;
+    left:714px;
+    font-size: 21px;
+    font-family: Verdana, sans-serif;
+    font-style: bold;
+}
+.status{
+    position: absolute;
+    top:310px;
+    left:664px;
+    font-size:15px;
+}
+
+.socials{
+    width:350px;
+    height:100px;
+    background-color: white;
+    position: absolute;
+    left:590px;
+    top:370px;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 3px;
+}
+#insta,#link,#tele,#git{
+    width:54px;
+    height:54px;
+    justify-content: center;
+    flex-direction: row;
+    margin:12px;
+    background-color: black;
+    border-radius:50%;
+    background-size: cover;
+    box-shadow:0 5px 8px 0 rgba(0,0,0,0.2),0 1px 5px 0 rgba(0,0,0,0.19);
+}
+#insta{
+    background-image: url(insta.jpg);
+}
+#link{
+    background-image: url(link.jpg);
+}
+#tele{
+    background-image: url(tele.jpg);
+}
+#git{
+    background-image: url(git.jpg);
+}
+#insta:hover,#link:hover,#tele:hover,#git:hover{
+    width:59px;
+    height:59px;
+}
+p{
+    text-align: center;
+    font-size: x-small;
+    font-style:cursive;
+}
+.extras{
+    width:350px;
+    height:70px;
+    /* background-color: beige; */
+    position: absolute;
+    left:590px;
+    top:490px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    font-size: 15px;
+}
+.end{
+    width:350px;
+    height:50px;
+    /* background-color: beige; */
+    position: absolute;
+    left:590px;
+    top:560px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    font-size: 15px;
+    
+}
+.thank{
+    background-color: pink;
+    height:20px;
+    width:80px;
+    margin-right: 130px;
+    text-align: center;
+    border-radius:5px;
+}
+.VA{
+    background-color: pink;
+    height:20px;
+    width:120px;
+    border-radius:5px;
+}
+/* @media all and (min-width:1285.60px) {
+    .socials,.end,.extras{ 
+      position:absolute;
+      left:474px;}
+      .status{
+          position: absolute;
+          left:534px
+      }
+      .name{
+          position: absolute;
+          left:580px
+      }
+  } 
+   */
